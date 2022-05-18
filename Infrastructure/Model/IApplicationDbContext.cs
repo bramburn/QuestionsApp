@@ -1,4 +1,4 @@
-namespace BlazorApp.Model;
+namespace Infrastructure.Model;
 
 public partial interface IApplicationDbContext
 {

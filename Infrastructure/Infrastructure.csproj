@@ -20,8 +20,6 @@
         </PackageReference>
     </ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\BlazorApp\BlazorApp.csproj" />
-    </ItemGroup>
+
 
 </Project>

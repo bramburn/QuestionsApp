@@ -850,22 +850,6 @@
             "rid": "win"
           }
         }
-      },
-      "BlazorApp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/BlazorApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BlazorApp.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -2356,16 +2340,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "BlazorApp/1.0.0": {
-      "type": "project",
-      "path": "../BlazorApp/BlazorApp.csproj",
-      "msbuildProject": "../BlazorApp/BlazorApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BlazorApp >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.5",
@@ -2397,11 +2375,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj": {
-              "projectPath": "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -2457,16 +2431,5 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \n  Infrastructure -> BlazorApp -> Infrastructure.",
-      "libraryId": "Infrastructure",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

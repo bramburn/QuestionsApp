@@ -84,11 +84,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj": {
-                "projectPath": "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

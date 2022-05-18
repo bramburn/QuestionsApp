@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "pmYukx7PkueNEgd3sOZAmpWDfkeEXJihmxSYVj4lsewUOFRS8+cE6DsMdAGYz8SW0cVtYkQg7uB1Mmno0p6iyQ==",
-  "success": false,
+  "dgSpecHash": "qEe1LmCZkSBFgezpwViopXQ3mczO6bnUq+QBP0DIBTJi5sjXGFUi+M5V96hfd0NOJHrE+Ds+qG5Hw/9y4ELEIA==",
+  "success": true,
   "projectFilePath": "/Users/bramburn/IdeaProjects/QuestionsApp/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/bramburn/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
@@ -60,15 +60,5 @@
     "/Users/bramburn/.nuget/packages/system.text.json/6.0.0/system.text.json.6.0.0.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \n  Infrastructure -> BlazorApp -> Infrastructure.",
-      "libraryId": "Infrastructure",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

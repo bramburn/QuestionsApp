@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BlazorApp.Model;
+namespace Infrastructure;
 
-public partial class ApplicationDbContext:DbContext,IApplicationDbContext
+public partial class ApplicationDbContext:DbContext
 {
     private readonly DbContextOptions<ApplicationDbContext> _options;
 
