@@ -2,7 +2,7 @@
 
 namespace BlazorApp.Model;
 
-public partial class ApplicationDbContext:DbContext
+public partial class ApplicationDbContext:DbContext,IApplicationDbContext
 {
     private readonly DbContextOptions<ApplicationDbContext> _options;
 

@@ -1,7 +1,11 @@
+using Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+// Add Infrastructure Tables
+builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
 

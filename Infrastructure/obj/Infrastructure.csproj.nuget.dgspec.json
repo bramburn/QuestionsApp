@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj": {}
+    "/Users/bramburn/IdeaProjects/QuestionsApp/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
     "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj": {

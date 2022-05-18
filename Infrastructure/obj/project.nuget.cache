@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NGYWQvVw2ukHoTGnxYP2DCLreaO3tcRxX5SxaM5dNaHPi8c/DLfg7Af8h071Va7xNQTcWscD/UHcrV+UCyyCjQ==",
+  "dgSpecHash": "pmYukx7PkueNEgd3sOZAmpWDfkeEXJihmxSYVj4lsewUOFRS8+cE6DsMdAGYz8SW0cVtYkQg7uB1Mmno0p6iyQ==",
   "success": false,
-  "projectFilePath": "/Users/bramburn/IdeaProjects/QuestionsApp/BlazorApp/BlazorApp.csproj",
+  "projectFilePath": "/Users/bramburn/IdeaProjects/QuestionsApp/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/bramburn/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
@@ -11,10 +12,12 @@
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore/6.0.5/microsoft.entityframeworkcore.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.5/microsoft.entityframeworkcore.abstractions.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.analyzers/6.0.5/microsoft.entityframeworkcore.analyzers.6.0.5.nupkg.sha512",
+    "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.design/6.0.5/microsoft.entityframeworkcore.design.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.relational/6.0.5/microsoft.entityframeworkcore.relational.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.sqlite/6.0.5/microsoft.entityframeworkcore.sqlite.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/6.0.5/microsoft.entityframeworkcore.sqlite.core.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.sqlserver/6.0.5/microsoft.entityframeworkcore.sqlserver.6.0.5.nupkg.sha512",
+    "/Users/bramburn/.nuget/packages/microsoft.entityframeworkcore.tools/6.0.5/microsoft.entityframeworkcore.tools.6.0.5.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "/Users/bramburn/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
@@ -61,8 +64,8 @@
     {
       "code": "NU1108",
       "level": "Error",
-      "message": "Cycle detected. \n  BlazorApp -> Infrastructure -> BlazorApp.",
-      "libraryId": "BlazorApp",
+      "message": "Cycle detected. \n  Infrastructure -> BlazorApp -> Infrastructure.",
+      "libraryId": "Infrastructure",
       "targetGraphs": [
         "net6.0"
       ]
