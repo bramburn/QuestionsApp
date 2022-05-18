@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace BlazorApp.Model;
+namespace Infrastructure;
 
 public partial class ApplicationDbContext:DbContext
 {
